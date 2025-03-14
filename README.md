@@ -1,5 +1,4 @@
 # Atividade_AI_YOLO
-* Atividade da Disciplina de IA 
 - Docente: José Lucas Brandão.
 - Discente: Fabio Silva.
 
