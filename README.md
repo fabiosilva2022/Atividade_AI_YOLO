@@ -21,3 +21,7 @@ pip install python-multipart
 ## Rodar o Streamlit novo terminal e utlilizar no navegador
 
 streamlit run app.py
+
+## Para visualizar no Swagger
+
+http://127.0.0.1:8000/docs
