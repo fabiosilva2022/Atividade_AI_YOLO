@@ -1,6 +1,6 @@
 # Atividade_AI_YOLO
 
-Objetivo: Desenvolver uma API utilizando o FastAPI que seja capaz de receber imagens, processá-las utilizando o modelo YOLO para detecção de objetos e retornar as imagens com as detecções destacadas e exibição realizada pelo Streamlit.
+Objetivo: Desenvolver uma API utilizando o FastAPI que seja capaz de receber imagens, processá-las utilizando o modelo YOLO para detecção de objetos e retornar as imagens com as detecções destacadas realizando a exibição realizada no Streamlit.
 
 ## Criar e ativar o ambiente virtual
 
