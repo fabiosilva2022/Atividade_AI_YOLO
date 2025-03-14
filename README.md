@@ -8,7 +8,9 @@ Desenvolver uma API utilizando o FastAPI que seja capaz de receber imagens, proc
 
 ## Criar e ativar o ambiente virtual
 
-python -m venv venv
+### Criar o ambiente virtual
+
+* python -m venv venv
 
 ### Ativar o ambiente virtual
 
@@ -18,13 +20,13 @@ python -m venv venv
 
 ### Instalar as dependências
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 ### Rodar a API no terminal
 
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+* uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-## Visualizar no Swagger - navegador
+## Visualizar no Swagger
 
 * Abra no navegador: http://127.0.0.1:8000/docs
 
@@ -32,6 +34,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ## Rodar o Streamlit 
 
-### Em novo terminal - utlilizar no navegador
+### Em novo terminal, execute:
 
-streamlit run app.py
+* streamlit run app.py
