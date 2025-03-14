@@ -8,13 +8,14 @@ import uvicorn
 from fastapi.responses import StreamingResponse
 
 # Inicializa o modelo YOLOv8
-model = YOLO("yolov8n.pt")  # Você pode usar "yolov8s.pt", "yolov8m.pt", etc.
+model = YOLO("yolov8n.pt")
 
 # Inicializa a API FastAPI
 app = FastAPI()
 
 @app.post("/detect/")
 async def detect_objects(file: UploadFile = File(...)):
+    
     # Lê a imagem enviada
     contents = await file.read()
     image = Image.open(BytesIO(contents)).convert("RGB")

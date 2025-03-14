@@ -7,6 +7,9 @@ import io
 API_URL = "http://127.0.0.1:8000/detect/"  # Altere se estiver rodando em outro host ou porta
 
 st.title("Detecção de Objetos utilizando o YOLOv8 🚀")
+
+st.write("Atividade da Disciplina de IA - Docente: José Lucas Brandão e Discente: Fabio Silva")
+
 st.write("Faça upload de uma imagem para detectar objetos usando YOLO.")
 
 # Upload de imagem

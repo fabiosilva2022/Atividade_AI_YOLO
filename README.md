@@ -10,20 +10,22 @@ python -m venv venv
 
 * venv\Scripts\activate  - Para Windows
 
-## Instalar as dependências
+### Instalar as dependências
 
 pip install -r requirements.txt
 
-## Rodar a API no terminal
+### Rodar a API no terminal
 
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-
-## Rodar o Streamlit em novo terminal - utlilizar no navegador
-
-streamlit run app.py
 
 ## Visualizar no Swagger - navegador
 
 * Abra no navegador: http://127.0.0.1:8000/docs
 
 * Use o /detect/ para carregar uma imagem e ver os resultados
+
+## Rodar o Streamlit 
+
+### Em novo terminal - utlilizar no navegador
+
+streamlit run app.py
