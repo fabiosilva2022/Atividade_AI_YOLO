@@ -5,9 +5,10 @@
 python -m venv venv
 
 ### Ativar o ambiente virtual
+
 * source venv/bin/activate  - Para Linux ou Mac
 
-* venv\Scripts\activate  # Para Windows
+* venv\Scripts\activate  - Para Windows
 
 ## Instalar as dependências
 
@@ -17,14 +18,12 @@ pip install -r requirements.txt
 
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-### Em caso de erro instalar o python-multipart e rodar a API novamente
-
-pip install python-multipart
-
-## Rodar o Streamlit novo terminal e utlilizar no navegador
+## Rodar o Streamlit em novo terminal - utlilizar no navegador
 
 streamlit run app.py
 
-## Para visualizar no Swagger
+## Visualizar no Swagger - navegador
 
-http://127.0.0.1:8000/docs
+* Abra no navegador: http://127.0.0.1:8000/docs
+
+* Use o /detect/ para carregar uma imagem e ver os resultados
